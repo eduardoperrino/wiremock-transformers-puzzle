@@ -1,0 +1,19 @@
+{
+  "request": {
+    "urlPath": "/persons",
+    "method": "GET",
+    "queryParameters" : {
+      "school" : {
+        "matches" : "^Santa-.*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "persons-body.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["response-template"]
+  }
+}

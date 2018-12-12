@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "date": "{{now format='yyyy-MM-dd'}}",
+    "school": "{{request.requestLine.query.school}}"
+  },
+  "persons":[
+    {
+      "name": "Julia Montes",
+      "age": 34,
+      "school": "{{request.requestLine.query.school}}"
+    }
+  ]
+}
