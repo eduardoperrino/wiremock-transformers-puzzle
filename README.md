@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eduardoperrino/wiremock-transformers-puzzle.svg?branch=master)](https://travis-ci.org/eduardoperrino/wiremock-transformers-puzzle)
+
 # Wiremock Transformers Puzzle
 
 This repository contains a little example that shows how to use wiremock template transformer thru [Spring Cloud Contract Runner] into a [Spring Boot Application].
